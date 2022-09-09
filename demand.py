@@ -26,8 +26,10 @@ print()
 
 #This outputs and prints your answer
 
-print("The demand equation is then")
-print("Q = " + str(a) + "+" + str(b_fin) + "P")
+if b_fin < 0:
+    print("The demand equation is then Q = " + str(a) + str(b_fin) + "P")
+else:
+    print("The demand equation is then Q = " + str(a) + " + " + str(b_fin) + "P")
 
 
 
